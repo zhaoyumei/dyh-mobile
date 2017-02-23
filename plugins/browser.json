@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "zhaoyumei"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "zhaoyumei"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "zhaoyumei"
+        }
+    }
+}
