@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/2.css"/>
+	</head>
+	<!--企业荣誉-->
+	<body id="qyry">
+		<header class="about-header">
+			<img src="img/aboutbj.png" alt="" />
+			<div id="about-btn" class="about-btn">
+				
+			</div>
+		</header>
+		<div class="about-jg"></div>
+		<nav  id="about-nav" class="hom-nav clearfix">
+				<a href="about.html">
+					<img src="img/about.png"/>
+					<p>关于我们</p>
+				</a>
+				<a href="cpjs.html">
+					<img src="img/exhibition.png"/>
+					<p>产品展示</p>
+				</a>
+				<a href="qyfc.html">
+					<img src="img/enterprise.png"/>
+					<p>产品风采</p>
+				</a>
+				<a href="qyry.html">
+					<img src="img/honor.png"/>
+					<p>企业荣誉</p>
+				</a>
+				<a href="lxwm.html">
+					<img src="img/contact.png"/>
+					<p>联系我们</p>
+				</a>
+			</nav>
+			<!--内容-->
+			<section>
+				<h2></h2>
+				<ul>
+					<li>
+						<img src="img/images/r2.png"/>
+					</li>
+				</ul>
+				<div></div>
+			</section>
+			<ul class="afooter clearfix">
+			<li>
+				<a href="index.html"><!--<img src="images/14.png" />--></a>
+			</li>
+			<li>
+				<a href="lxwm.html"><img src="img/15.png" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/16.png" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/17.png" /></a>
+			</li>
+		</ul>
+	</body>
+	<script>
+		(function(win,doc){
+			win.addEventListener('resize',change,false);
+			change();
+			function change(){
+				doc.documentElement.style.fontSize=20/320*doc.documentElement.clientWidth+'px';}
+		})(window,document);
+		var oBtn=document.querySelector('#about-btn');
+		var oNav=document.querySelector('#about-nav')
+		// addEventListener('touchmove',show,false);
+		oBtn.addEventListener('touchstart',function(){
+			if(oNav.style.display=='block'){
+				oNav.style.display='none';
+			}else{
+				oNav.style.display='block';
+			}
+		},false);
+	</script>
+</html>
